@@ -1,7 +1,7 @@
 # CodeClash
 CodeClash is a full-stack online coding platform built for practicing algorithmic problems, competing in timed contests, and engaging with a vibrant developer community. Designed with a modern micro-services architecture, it delivers secure code execution, real-time collaboration, and AI-assisted productivity.
 
-🚀 Features
+# 🚀 Features
 Secure Authentication – Login/signup with session-based authentication.
 
 Practice Problems – Search, filter, and solve problems using a built-in Monaco code editor.
@@ -18,7 +18,7 @@ Admin Dashboard – Create/edit problems and contests, manage users.
 
 Profile & Stats – View submissions, track contest performance and history.
 
-📁 Project Structure
+# 📁 Project Structure
 CodeClash/
 ├── Backend/             # Node.js/Express REST API
 │   ├── app.js
@@ -35,7 +35,7 @@ CodeClash/
     ├── src/AppRoutes.jsx
     └── ...
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Layer	Technologies
 Frontend	React, Vite, MUI, React Router, Monaco Editor
 Backend	Node.js, Express, MongoDB, Passport, Joi, Sessions
@@ -43,7 +43,7 @@ Compiler	Node.js, Docker, Language-specific runners
 AI Integration	Google Gemini API
 Security	Helmet, CORS, Rate Limiting
 
-⚙️ Setup & Installation
+# ⚙️ Setup & Installation
 Clone the Repository
 git clone <your-repo-url>
 cd CodeClash

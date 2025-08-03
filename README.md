@@ -1,4 +1,4 @@
-#CodeClash
+# CodeClash
 CodeClash is a full-stack online coding platform built for practicing algorithmic problems, competing in timed contests, and engaging with a vibrant developer community. Designed with a modern micro-services architecture, it delivers secure code execution, real-time collaboration, and AI-assisted productivity.
 
 🚀 Features

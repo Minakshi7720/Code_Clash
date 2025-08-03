@@ -19,9 +19,6 @@ Admin Dashboard – Create/edit problems and contests, manage users.
 Profile & Stats – View submissions, track contest performance and history.
 
 📁 Project Structure
-bash
-Copy
-Edit
 CodeClash/
 ├── Backend/             # Node.js/Express REST API
 │   ├── app.js
@@ -37,6 +34,7 @@ CodeClash/
     ├── src/components/
     ├── src/AppRoutes.jsx
     └── ...
+
 🛠️ Tech Stack
 Layer	Technologies
 Frontend	React, Vite, MUI, React Router, Monaco Editor
@@ -47,44 +45,36 @@ Security	Helmet, CORS, Rate Limiting
 
 ⚙️ Setup & Installation
 Clone the Repository
-
-bash
-Copy
-Edit
 git clone <your-repo-url>
 cd CodeClash
+
+
 Create .env Files
 
 Backend/.env
-
-makefile
-Copy
-Edit
 PORT=
 MONGOOSE_URL=
 FRONTEND_URL=
 COMPILER_URL=
 Gemini_api=
 SESSION_SECRET=
+
+
 Compiler Server/.env
 
-makefile
-Copy
-Edit
 PORT=
+
 Install Dependencies
 
 bash
-Copy
-Edit
 cd Backend && npm install
 cd ../Compiler\ Server && npm install
 cd ../Frontend && npm install
+
+
 Run Servers
 
 bash
-Copy
-Edit
 # Backend
 cd Backend
 npm run dev
@@ -99,6 +89,7 @@ npm start
 # Frontend
 cd ../Frontend
 npm run dev
+
 📌 Core Functionality
 Problem Solving – Editor with run/submit, verdicts, and AI debugging.
 
